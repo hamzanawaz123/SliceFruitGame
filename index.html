@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruits Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="score">Score: <span id="scoreValue">0</span></div>
+      <div id="trialsLeft"></div>
+      <div id="correct">Correct</div>
+      <div id="wrong">Wrong</div>
+      <div id="fruitsContainer">
+        <img id="fruit1" class="fruit" alt="" />
+      </div>
+      <div id="instruction">Catch Fruits</div>
+      <div id="startreset">Start Game</div>
+      <div id="gameOver"></div>
+    </div>
+    <audio id="sliceSound">
+      <source src="audio/swordMP3.mp3"> </source>
+      <!-- <source src="audio/sword (online-audio-converter.com).ogg"> </source> -->
+    </audio>
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
